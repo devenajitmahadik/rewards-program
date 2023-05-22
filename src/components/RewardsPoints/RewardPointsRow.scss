@@ -1,0 +1,16 @@
+.reward-points-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    border: 1px solid black;
+
+    .month,
+    .points {
+        padding: 10px;
+    }
+
+    .month {
+        background-color: bisque;
+        border-bottom: 1px solid black;
+    }
+}
